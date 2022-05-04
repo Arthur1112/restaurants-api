@@ -1,6 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import { addRestaurant, getAllRestaurant } from './src/restaurants.js';
+
 const app = express();
 app.use(cors());
 app.use(express.json());
